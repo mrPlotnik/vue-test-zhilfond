@@ -51,7 +51,7 @@ const empty = computed(() => Object.entries(user.value).length === 0);
     padding: 1em;
     span {
       font-size: 0.85em;
-      color: #76787D;
+      color: $main-color;
     }
   }
 
@@ -71,7 +71,8 @@ const empty = computed(() => Object.entries(user.value).length === 0);
     }
     &-data  {
       @include flex-container(column);
-      flex-grow: 1;
+      width: 100%;
+      min-width: 300px;
 
       &-name {
         margin-bottom: 1em;
@@ -89,7 +90,7 @@ const empty = computed(() => Object.entries(user.value).length === 0);
             font-weight: 600;
           }
           &:last-child {
-            color: #76787D;
+            color: $main-color;
           }
         }
       }

@@ -119,7 +119,7 @@ const inputChange = (e) => {
     width: 100%;
     font-weight: 600;
     margin-bottom: 1em;
-    color: #333;
+    color: $title-color;
   }
 
   &__label {
@@ -140,7 +140,7 @@ const inputChange = (e) => {
     padding: 1em;
     border: 1px solid #E9ECEF;
     font-size: .85em;
-    color: #76787D;
+    color: $main-color;
 
     &:focus {
       border-color: #b8babd;
@@ -150,7 +150,7 @@ const inputChange = (e) => {
 
   &__status {
     font-size: 0.85em;
-    color: #76787D;
+    color: $main-color;
     &--error {
       font-size: 0.85em;
       color: #ff2f2f;

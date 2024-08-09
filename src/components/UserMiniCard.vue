@@ -63,7 +63,7 @@ const cardClick = (id) => {
       cursor: pointer;
       outline: none;
       box-shadow: 0px 0px 0px 1px #E0E0E0;
-      .card-data {
+      .card__data {
         background-color: #E0E0E0;
       }
     }
@@ -92,10 +92,10 @@ const cardClick = (id) => {
   &__username {
     margin-bottom: 0.25em;
     font-weight: 600;
-    color: #333;
+    color: $title-color;
   }
   &__email {
-    color: #76787D;
+    color: $main-color;
   }
 }
 
