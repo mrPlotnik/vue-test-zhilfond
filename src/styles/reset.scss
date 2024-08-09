@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	::before, ::after {
+		box-sizing: border-box;
+	}
+}
+
+body {
+	min-height: 100vh;
+	font-size: 16px;
+	line-height: 1.25;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+body,
+input,
+textarea,
+button {
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+}
+
+article, aside {
+	display: flex;
+}
+
+img {
+	width: 100%;
+  height: auto;
+}
+a {
+	width: fit-content;
+	text-decoration: none;
+	outline: transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: inherit;
+	font-size: inherit;
+}
+
+input {
+	border-radius: .5em;
+	&:focus {
+		outline: none;
+	}
+}
+
+p {
+	margin-bottom: 0.5em;
+}
+
+.container {
+	position: relative;
+	min-width: 320px;
+	max-width: 1024px;
+	display: flex;
+	flex-direction: column;
+	padding: 0 1em;
+	margin: 0 auto;
+}
+
